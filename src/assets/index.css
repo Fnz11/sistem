@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-foreground bg-background leading-normal font-inter;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.font-sen {
+  font-family: "Sen", sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 234 21% 17%;
+
+    --gray-1: 0 0% 30%;
+    --gray-2: 234 4% 45%;
+    --white: 0 0% 100%;
+    --white-1: 0 0% 96%;
+    --white-2: 270 36% 96%;
+    --white-3: 44 66% 95%;
+
+    --muted: 44 100% 66%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 234 21% 17%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 234 21% 17%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+
+    --primary: 219 98% 51%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 44 100% 66%;
+    --secondary-foreground: 219 98% 51%;
+
+    --accent: 44 100% 66%;
+    --accent-foreground: 219 98% 51%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 234 21% 17%;
+
+    --radius: 0.5rem;
+  }
+
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 234 21% 17%;
+
+    --gray-1: 0 0% 30%;
+    --gray-2: 234 4% 45%;
+    --white: 0 0% 100%;
+    --white-1: 0 0% 96%;
+    --white-2: 270 36% 96%;
+    --white-3: 44 66% 95%;
+
+    --muted: 44 100% 66%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 234 21% 17%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 234 21% 17%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+
+    --primary: 219 98% 51%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 44 100% 66%;
+    --secondary-foreground: 219 98% 51%;
+
+    --accent: 44 100% 66%;
+    --accent-foreground: 219 98% 51%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 234 21% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+/* CAPITALIZE */
+.cap-1 {
+  @apply text-[1rem] uppercase font-semibold tracking-widest;
+}
+.cap-3 {
+  @apply text-[1rem] text-dark-1 uppercase font-black tracking-widest;
+}
+
+/* HEADING */
+.heading-1 {
+  @apply text-[48px] leading-[64px] font-sen font-semibold;
+}
+.heading-2 {
+  @apply text-[36px] leading-[3rem] font-sen font-semibold;
+}
+.heading-3 {
+  @apply text-[28px] font-sen font-semibold;
+}
+.heading-4 {
+  @apply font-semibold font-sen text-[24px];
+}
+.heading-5 {
+  @apply font-semibold font-sen text-[20px];
+}
+
+/* BODY */
+.body-1 {
+  @apply text-dark-2 font-light text-[1rem];
+}
+.body-2 {
+  @apply text-dark-2 font-light text-[14px];
+}
+
+/* LINK */
+.link-1 {
+  @apply text-primary font-semibold hover:underline;
+}
+.link-2 {
+  @apply text-secondary font-semibold hover:underline;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.base-input {
+  @apply flex w-full border border-dark-2/50 bg-transparent p-[24px] placeholder:text-black text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+}
