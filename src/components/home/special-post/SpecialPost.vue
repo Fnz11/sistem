@@ -1,5 +1,5 @@
 <template>
-  <section class="px-[80px]">
+  <section class="px-[80px] mt-[128px]">
     <div class="relative h-[705px] w-full flex items-end justify-end">
       <!-- Background Image -->
       <img

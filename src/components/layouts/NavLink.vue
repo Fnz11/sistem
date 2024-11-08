@@ -16,7 +16,7 @@ const props = defineProps<Props>();
 
 <style scoped>
 .nav-link {
-  @apply text-background text-[1rem] cursor-pointer hover:scale-[1.05] hover:brightness-[0.8] transition-all duration-300 ease-out;
+  @apply text-background text-[1rem] cursor-pointer hover:scale-[1.05] hover:text-secondary transition-all duration-300 ease-out;
 }
 </style>
 

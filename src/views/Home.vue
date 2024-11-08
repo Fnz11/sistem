@@ -21,5 +21,5 @@ import SpecialPost from "@/components/home/special-post/SpecialPost.vue";
 import Authors from "@/components/home/authors/Authors.vue";
 import FeaturedLogo from "@/components/home/featured-logo/FeaturedLogo.vue";
 import Testimonials from "@/components/home/testimonials/Testimonials.vue";
-import CTA from "@/components/home/cta/CTA.vue";
+import CTA from "@/components/public/cta/CTA.vue"; 
 </script>

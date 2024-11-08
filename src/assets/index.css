@@ -120,6 +120,9 @@ body {
 .heading-5 {
   @apply font-semibold font-sen text-[20px];
 }
+.display {
+  @apply text-[56px] font-sen font-semibold;
+}
 
 /* BODY */
 .body-1 {
