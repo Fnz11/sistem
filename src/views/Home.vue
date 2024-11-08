@@ -5,7 +5,7 @@
     <About />
     <Category />
     <SpecialPost />
-    <Authors />
+    <Authors :isTwice="false" />
     <FeaturedLogo />
     <Testimonials />
     <CTA />
